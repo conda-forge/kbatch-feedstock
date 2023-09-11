@@ -1,5 +1,5 @@
 {% set name = "kbatch" %}
-{% set version = "0.4.1" %}
+{% set version = "0.4.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/kbatch-{{ version }}.tar.gz
-  sha256: 175437b2c8b159932d96fa2996640b8add12f157daae5b11ea1fd2256e322e3b
+  sha256: 6a8b289ef66e1eee44394621888a7bc4f297ce287ce595c330e43f19958117fb
 
 build:
   noarch: python
